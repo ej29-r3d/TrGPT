@@ -1,0 +1,12 @@
+model_name: "gpt-4o"
+# Translation preferences for different source languages:
+translation_preferences:
+  spanish:
+    - english
+    - russian
+  english:
+    - russian
+    - spanish
+  russian:
+    - english
+    - spanish
